@@ -162,7 +162,7 @@ export default function PolicyFellowshipPage() {
             rel="noopener noreferrer"
           >
             here 
-          </a></strong> </p>
+          </a>.</strong> </p>
           <strong>Application Deadline: January 31.</strong>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
