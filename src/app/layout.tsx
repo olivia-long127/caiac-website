@@ -4,7 +4,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
 
 export const metadata = {
-  title: "Columbia AI Safety",
+  title: "CAIAC",
   description: "Website for the Columbia AI Safety Club",
   icons: {
     icon: [

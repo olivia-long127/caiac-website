@@ -52,7 +52,7 @@ export default function Home() {
           <div className="mt-24">
             <a
               href="https://forms.gle/fa2dFsV5W8VSDvoT8"
-              target="_blank" rel="noopener noreferrer"
+                target="_blank" rel="noopener noreferrer"
               className="group inline-flex items-center gap-x-2 text-base font-semibold text-[#023a87] hover:text-[#4A8A99] transition-colors"
             >
               Join our mailing list

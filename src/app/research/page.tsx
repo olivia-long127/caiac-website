@@ -1,19 +1,5 @@
 const researchEntries = [
-  {
-    title: "Estimating the Hallucination Rate of Generative AI",
-    authors: [
-      { name: "Andrew Jesson" },
-      { name: "Nicolas Beltran-Velez" },
-      { name: "Quentin Chu" },
-      { name: "Sweta Karlekar", isPI: true },
-      { name: "Jannik Kossen" },
-      { name: "Yarin Gal" },
-      { name: "John P. Cunningham" },
-      { name: "David Blei" }
-    ],
-    date: "December 8, 2024",
-    link: "https://arxiv.org/abs/2406.07457"
-  },
+  
   {
     title: "Adaptive Contextual Perception: How to Generalize to New Backgrounds and Ambiguous Objects",
     authors: [
@@ -24,19 +10,9 @@ const researchEntries = [
     date: "December 2, 2024",
     link: "https://arxiv.org/abs/2306.05963v2"
   },
+  
   {
-    title: "Multimodal Multi-loss Fusion Network for Sentiment Analysis",
-    authors: [
-      { name: "Zehui Wu" },
-      { name: "Ziwei Gong", isPI: true },
-      { name: "Jaywon Koo" },
-      { name: "Julia Hirschberg" }
-    ],
-    date: "June 2, 2024",
-    link: "https://arxiv.org/abs/2308.00264"
-  },
-  {
-    title: "Generalization Analogies (genies): A Testbed for Generalizing AI Oversight to Hard-to-Measure Domains",
+    title: "Generalization Analogies (Genies): A Testbed for Generalizing AI Oversight to Hard-to-Measure Domains",
     authors: [
       { name: "Joshua Clymer" },
       { name: "Garrett Baker" },
@@ -62,6 +38,7 @@ export default function ResearchPage() {
             <div className="flex flex-col gap-3">
               <a 
                 href={entry.link}
+                target="_blank" rel="noopener noreferrer"
                 className="text-[#023a87] hover:underline text-xl font-medium block"
               >
                 {entry.title}
@@ -83,6 +60,8 @@ export default function ResearchPage() {
           </div>
         ))}
       </div>
+      <br></br>
+      <br></br>
     </div>
   );
 }

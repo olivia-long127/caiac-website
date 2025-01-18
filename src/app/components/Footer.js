@@ -14,7 +14,8 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <a 
-                href="/signup" 
+                href="https://forms.gle/fa2dFsV5W8VSDvoT8"
+                target="_blank" rel="noopener noreferrer"
                 className="text-white hover:text-gray-300 transition-colors"
               >
                 Join our mailing list →
