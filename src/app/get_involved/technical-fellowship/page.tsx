@@ -62,7 +62,7 @@ export default function TechnicalFellowshipPage() {
           If you've already read all the material in the <Link href="https://docs.google.com/document/d/14gOLPczbGpESK2iae1dii0aVCAMIKnCb4pIp6bLkaeg/edit?usp=sharing" className="text-[#4A8A99] hover:underline"target="_blank" rel="noopener noreferrer">
             curriculum
           </Link>, you may be interested in attending our{" "}
-          <Link href="/get_involved/research-groups"target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">
+          <Link href="/get_involved/research-groups"className="text-[#4A8A99] hover:underline">
             research groups
           </Link>. Feel free to email us at <Link href="mailto:yw3809@columbia.edu"target="_blank" rel="noopener noreferrer" className="text-[#4A8A99] hover:underline">
           yw3809@columbia.edu
@@ -133,8 +133,7 @@ export default function TechnicalFellowshipPage() {
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/policy-fellowship" 
             className="text-[#4A8A99] hover:underline"
-            target="_blank"
-            rel="noopener noreferrer"
+            
           >policy fellowship 
           </a>. It is possible to participate in both programs.
 

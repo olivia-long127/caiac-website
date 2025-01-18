@@ -39,7 +39,7 @@ export default function Home() {
 
             </p>
             <p className="text-lg leading-relaxed text-gray-600">
-            We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">technical machine learning track</a>,   and a <a href="/get_involved/policy-fellowship" target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">policy track</a>.
+            We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" className="text-[#4A8A99] hover:underline">technical machine learning track</a>,   and a <a href="/get_involved/policy-fellowship" className="text-[#4A8A99] hover:underline">policy track</a>.
 
             </p>
             <p><strong>Applications for both our fellowships are open now! Click the links above for more information.</strong> </p>
