@@ -11,35 +11,16 @@ export default function TeamPage() {
       image: "/team/thomasgansa.png",
     },
     {
-      name: "Rohan Subrmani",
-      title: "Director of Governance Programs",
-      image: "/team/kevin-wei.jpg",
+      name: "Ryan Zhang",
+      title: "Marketing/Outreach Lead",
+      image: "/team/ryan-zhang.jpg",
     },
     {
-      name: "Sweta Karlekar",
-      title: "Director of Technical Programs",
-      image: "/team/ryan-kaufman.jpg",
-    },
-    {
-      name: "Josh Ying",
-      title: "Policy Fellowship Lead Coach",
-      image: "/team/carson-ezell.jpg",
-    },
-    {
-      name: "Ziwei Gong",
-      title: "Technical Fellowship Lead Coach",
-      image: "/team/jj-andrade.jpg",
-    },
-    {
-      name: "Rod Moshtagi",
-      title: "Workshop Lead",
-      image: "/team/rod-moshtagi.jpg",
-    },
-    {
-      name: "Romeo Dean",
-      title: "AI Governance Strategy Lead",
-      image: "/team/romeo-dean.jpg",
+      name: "Shivani Rajagopalan",
+      title: "Treasurer",
+      image: "/team/shivani-rajagopalan.jpg",
     }
+    
   ];
 
   return (

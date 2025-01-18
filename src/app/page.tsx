@@ -14,6 +14,7 @@ export default function Home() {
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
                 href="https://forms.gle/fa2dFsV5W8VSDvoT8"
+                target="_blank" rel="noopener noreferrer"
                 className="text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
               >
                 Join our mailing list <span aria-hidden="true">→</span>
@@ -38,10 +39,11 @@ export default function Home() {
 
             </p>
             <p className="text-lg leading-relaxed text-gray-600">
-            We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" className="text-[#4A8A99] hover:underline">technical machine learning track</a>,   and a <a href="/get_involved/policy-fellowship" className="text-[#4A8A99] hover:underline">policy track</a>.
+            We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">technical machine learning track</a>,   and a <a href="/get_involved/policy-fellowship" target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">policy track</a>.
 
             </p>
-          
+            <p><strong>Applications for both our fellowships are open now! Click the links above for more information.</strong> </p>
+            <p><strong>Application Deadline: January 31.  </strong> </p>
           </div>
 
 
@@ -50,6 +52,7 @@ export default function Home() {
           <div className="mt-24">
             <a
               href="https://forms.gle/fa2dFsV5W8VSDvoT8"
+              target="_blank" rel="noopener noreferrer"
               className="group inline-flex items-center gap-x-2 text-base font-semibold text-[#023a87] hover:text-[#4A8A99] transition-colors"
             >
               Join our mailing list

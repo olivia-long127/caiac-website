@@ -59,12 +59,14 @@ export default function TechnicalFellowshipPage() {
       question: "What if I already know all the material in the curriculum?",
       answer: (
         <>
-          If you've already read all the material in the <Link href="https://docs.google.com/document/d/14gOLPczbGpESK2iae1dii0aVCAMIKnCb4pIp6bLkaeg/edit?usp=sharing" className="text-[#4A8A99] hover:underline">
+          If you've already read all the material in the <Link href="https://docs.google.com/document/d/14gOLPczbGpESK2iae1dii0aVCAMIKnCb4pIp6bLkaeg/edit?usp=sharing" className="text-[#4A8A99] hover:underline"target="_blank" rel="noopener noreferrer">
             curriculum
           </Link>, you may be interested in attending our{" "}
-          <Link href="/get_involved/research-groups" className="text-[#4A8A99] hover:underline">
+          <Link href="/get_involved/research-groups"target="_blank" rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">
             research groups
-          </Link>. Feel free to email us at yw3809@columbia.edu to discuss other ways of getting involved with CAIAC!
+          </Link>. Feel free to email us at <Link href="mailto:yw3809@columbia.edu"target="_blank" rel="noopener noreferrer" className="text-[#4A8A99] hover:underline">
+          yw3809@columbia.edu
+          </Link> to discuss other ways of getting involved with CAIAC!
         </>
       )
     },
@@ -79,12 +81,11 @@ export default function TechnicalFellowshipPage() {
       <h1 className="text-4xl font-light tracking-wide mb-8">Technical Fellowship</h1>
       <div className="space-y-8 mb-16">
         <p className="text-gray-800 text-lg leading-relaxed">
-          Every semester and summer, CAIAC runs an 8-week introductory reading group on AI safety, covering topics like neural network interpretability
+          Every semester and summer, CAIAC runs an <strong>8-week introductory reading group on AI safety</strong>, covering topics like neural network interpretability
           <a 
             href="https://distill.pub/2020/circuits/zoom-in/" 
             className="text-[#4A8A99] hover:underline align-super text-sm"
-            target="_blank"
-            rel="noopener noreferrer"
+            target="_blank" rel="noopener noreferrer"
           >¹</a>
           , learning from human feedback
           <a 
@@ -120,6 +121,26 @@ export default function TechnicalFellowshipPage() {
             here 
           </a> for the curriculum (subject to change)
         </p>
+        <p><strong>Applications for the Spring 2025 Techincal Fellowship are open! Apply <a 
+            href="https://forms.gle/u7YLKcV5PEdGEnCg8" 
+            className="text-[#4A8A99] hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            here 
+          </a></strong> </p>
+          <strong>Application Deadline: January 31.</strong>
+        <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
+            href="/get_involved/policy-fellowship" 
+            className="text-[#4A8A99] hover:underline"
+            target="_blank"
+            rel="noopener noreferrer"
+          >policy fellowship 
+          </a>. It is possible to participate in both programs.
+
+
+        </p>
+          
       </div>
 
       {/* FAQ Section */}
