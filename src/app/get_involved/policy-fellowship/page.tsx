@@ -163,7 +163,7 @@ export default function PolicyFellowshipPage() {
             here 
           </a>.</strong> </p>
           <p><strong>Application Deadline: January 31.</strong></p>
-        <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
+        <p>For those interested in the technical side of AI safety, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
             className="text-[#4A8A99] hover:underline"
             
