@@ -49,8 +49,13 @@ export default function TechnicalFellowshipPage() {
     },
     {
       question: "How much experience with machine learning is expected?",
-      answer: "Participants should be familiar with basic concepts in machine learning, such as deep neural networks, stochastic gradient descent, and reinforcement learning. We may group cohorts according to previous experience."
-    },
+      answer: (
+        <>
+          Participants should be familiar with basic concepts in machine learning, such as deep neural networks, stochastic gradient descent, and reinforcement learning. See Week 0 of <Link href="https://docs.google.com/document/d/1gDIPzQ6b8LcJhfrag_Gy9ca6ziB4fYfKu-zMR6qYeiE/edit?usp=sharing" className="text-[#4A8A99] hover:underline"target="_blank" rel="noopener noreferrer">
+          the curriculum
+          </Link> for recommended introductory materials. We may group cohorts according to previous experience.
+        </>
+      )    },
     {
       question: "When and where does the fellowship meet?",
       answer: "We ask for your availability in the application, and will attempt to accommodate people's schedules when forming cohorts. Each cohort meets once a week for two hours, with dinner or lunch provided. We'll be meeting in various meeting rooms across Columbia's campus depending on availability."
@@ -64,8 +69,8 @@ export default function TechnicalFellowshipPage() {
           </Link>, you may be interested in attending our{" "}
           <Link href="/get_involved/research-groups"className="text-[#4A8A99] hover:underline">
             research groups
-          </Link>. Feel free to email us at <Link href="mailto:yw3809@columbia.edu"target="_blank" rel="noopener noreferrer" className="text-[#4A8A99] hover:underline">
-          yw3809@columbia.edu
+          </Link>. Feel free to email us at <Link href="mailto:cualignment@gmail.com"target="_blank" rel="noopener noreferrer" className="text-[#4A8A99] hover:underline">
+          cualignment@gmail.com
           </Link> to discuss other ways of getting involved with CAIAC!
         </>
       )
@@ -119,7 +124,7 @@ export default function TechnicalFellowshipPage() {
             rel="noopener noreferrer"
           >
             here 
-          </a> for the curriculum (subject to change)
+          </a> for the curriculum (subject to change).
         </p>
         <p><strong>Applications for the Spring 2025 Techincal Fellowship are open! Apply <a 
             href="https://forms.gle/u7YLKcV5PEdGEnCg8" 
@@ -129,7 +134,7 @@ export default function TechnicalFellowshipPage() {
           >
             here 
           </a></strong>. </p>
-          <strong>Application Deadline: January 31.</strong>
+          <p><strong>Application Deadline: January 31.</strong></p>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/policy-fellowship" 
             className="text-[#4A8A99] hover:underline"

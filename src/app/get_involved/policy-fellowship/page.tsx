@@ -65,9 +65,9 @@ export default function PolicyFellowshipPage() {
           </Link>, you may be interested in attending our{" "}
           <Link href="/get_involved/research-groups" className="text-[#4A8A99] hover:underline">
             research groups
-          </Link>. Feel free to email us at <Link href="mailto:yw3809@columbia.edu" target="_blank"
+          </Link>. Feel free to email us at <Link href="mailto:cualignment@gmail.com" target="_blank"
             rel="noopener noreferrer"className="text-[#4A8A99] hover:underline">
-          yw3809@columbia.edu
+          cualignment@gmail.com
           </Link> to discuss other ways of getting involved with CAIAC!
         </>
       )
@@ -162,7 +162,7 @@ export default function PolicyFellowshipPage() {
           >
             here 
           </a>.</strong> </p>
-          <strong>Application Deadline: January 31.</strong>
+          <p><strong>Application Deadline: January 31.</strong></p>
         <p>For those interested in the policy and governance side of AI, we recommend applying to our introductory <a 
             href="/get_involved/technical-fellowship" 
             className="text-[#4A8A99] hover:underline"

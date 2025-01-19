@@ -2,31 +2,23 @@
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
-
 export const metadata = {
   title: "CAIAC",
-  description: "Website for the Columbia AI Safety Club",
+  description: "Website for the Columbia AI Alignment Club",
   icons: {
-    icon: [
-      {
-        url: '/logo.svg',
-        sizes: '64x64',  // You can try different sizes: '32x32', '64x64', '96x96'
-        type: 'image/svg+xml'
-      }
-    ],
-    apple: [
-      {
-        url: '/logo.svg',
-        sizes: '128x128',
-        type: 'image/svg+xml'
-      }
-    ]
+    icon: '/logo.svg',
+    apple: '/logo.png',
   }
 };
+
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
+      <head>
+
+      </head>
+      
       <body>
         <Navbar />
         <main style={{ padding: "2rem" }}>

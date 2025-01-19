@@ -18,7 +18,7 @@ export default function TeamPage() {
     {
       name: "Shivani Rajagopalan",
       title: "Treasurer",
-      image: "/team/shivani-rajagopalan.jpg",
+      image: "/team/shivani-rajagopalan.jpeg",
     }
     
   ];

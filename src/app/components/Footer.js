@@ -22,7 +22,7 @@ export default function Footer() {
               </a>
               <p className="text-gray-300 max-w-md mb-6">
                 <a 
-                  href="mailto:yw3809@columbia.edu" 
+                  href="mailto:cualignment@gmail.com" 
                   className="text-white hover:text-gray-300 transition-colors"
                 >
                   Contact Us

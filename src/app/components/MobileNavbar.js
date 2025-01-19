@@ -19,18 +19,17 @@ const MobileNavbar = () => {
       { label: 'About', submenu: 'about' },
       { label: 'Research', href: '/research' },
       { label: 'Get Involved', submenu: 'getInvolved' },
-      { label: 'Resources', submenu: 'resources' }
+      { label: 'Blog', href: '/blog' }
     ],
     about: [
       { label: 'Home', href: '/' },
-      { label: 'Team Lorem', href: '/about/team' },
-      { label: 'Mission', href: '/about/mission' },
-      { label: 'Donate', href: '/about/donate' }
+      { label: 'Team', href: '/about/team' }
+      
     ],
     getInvolved: [
       { label: 'Technical Fellowship', href: '/get_involved/technical-fellowship' },
       { label: 'Policy Fellowship', href: '/get_involved/policy-fellowship' },
-      { label: 'Workshops', href: '/get_involved/workshops' }
+      { label: 'Research Groups', href: '/get_involved/research-groups' }
     ],
     resources: [
       { label: 'Technical Papers', href: '/resources/technical-papers' },
