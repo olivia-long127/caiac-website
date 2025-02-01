@@ -154,7 +154,7 @@ export default function PolicyFellowshipPage() {
           </a> for the curriculum (subject to change).
         </p>
 
-        <p><strong>Applications for the Spring 2025 Policy & Governance Fellowship are open! Apply <a 
+        <p><strong>Applications for the Spring 2025 Policy & Governance Fellowship are now closed! Apply <a 
             href="https://docs.google.com/forms/d/e/1FAIpQLSczK9XAsuIi5WMWMwmGrzw463eBvrD0stm3MT9jTBEGWtAfBQ/viewform?usp=sharing" 
             className="text-[#4A8A99] hover:underline"
             target="_blank"

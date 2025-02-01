@@ -42,7 +42,7 @@ export default function Home() {
             We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" className="text-[#4A8A99] hover:underline">technical machine learning track</a>,   and a <a href="/get_involved/policy-fellowship" className="text-[#4A8A99] hover:underline">policy track</a>.
 
             </p>
-            <p><strong>Applications for both our fellowships are open now! Click the links above for more information.</strong> </p>
+            <p><strong>Applications for both our fellowships are now closed! Click the links above for more information.</strong> </p>
             <p><strong>Application Deadline: January 31.  </strong> </p>
           </div>
 

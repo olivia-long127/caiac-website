@@ -126,7 +126,7 @@ export default function TechnicalFellowshipPage() {
             here 
           </a> for the curriculum (subject to change).
         </p>
-        <p><strong>Applications for the Spring 2025 Techincal Fellowship are open! Apply <a 
+        <p><strong>Applications for the Spring 2025 Techincal Fellowship are now closed! Apply <a 
             href="https://forms.gle/u7YLKcV5PEdGEnCg8" 
             className="text-[#4A8A99] hover:underline"
             target="_blank"
