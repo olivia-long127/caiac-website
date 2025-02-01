@@ -52,6 +52,19 @@ export default function TeamPage() {
     }
   ];
 
+  const advisors = [
+    {
+      name: "Rohan Subramani",
+      title: "Advisor",
+      image: "/team/rohan_subramani.jpg",
+    },
+    {
+      name: "Ella Markianos",
+      title: "Advisor",
+      image: "/team/ella_markianos.jpg",
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-8 py-16">
@@ -84,6 +97,32 @@ export default function TeamPage() {
               </p>
             </div>
           ))}
+        </div>
+
+        {/*Advisor Grid*/}
+        <div className="mt-16">
+          <h2 className="text-3xl text-[#023a87] font-light mb-8 text-center">Advisors</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+            {advisors.map((advisor) => (
+              <div key={advisor.name} className="flex flex-col items-center text-center group">
+                <div className="mb-6 rounded-full overflow-hidden w-56 h-56 shadow-md">
+                  <img
+                    src={advisor.image}
+                    alt={advisor.name}
+                    className="w-full h-full object-cover"
+                  />
+                </div>
+                
+                <h3 className="text-2xl text-[#023a87] font-light mb-2">
+                  {advisor.name}
+                </h3>
+                
+                <p className="text-gray-600 text-lg font-light italic">
+                  {advisor.title}
+                </p>
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </div>
