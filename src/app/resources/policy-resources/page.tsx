@@ -15,14 +15,14 @@ export default function MissionPage() {
                 <a href="https://emergingtechpolicy.org/" className="text-2xl text-blue-600 hover:underline">
                   Emerging Technology Policy
                 </a>
-                <p className="text-gray-600">A resource for understanding the impact of emerging technologies on policy.</p>
+                <p className="text-gray-600">A comprehensive resource for emerging tech policy careers. Guides and fellowships included.</p>
               </div>
               <hr className="border-gray-300" />
               <div>
                 <a href="https://horizonpublicservice.org/" className="text-2xl text-blue-600 hover:underline">
                   Horizon Public Service
                 </a>
-                <p className="text-gray-600">Dedicated to advancing public service through innovative policy solutions.</p>
+                <p className="text-gray-600">Full time fellowship for individuals looking to work on national tech policy.</p>
               </div>
               <hr className="border-gray-300" />
             </div>
