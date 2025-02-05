@@ -1,4 +1,6 @@
 // components/Footer.jsx
+import { FaGithub, FaEnvelope } from 'react-icons/fa';
+
 export default function Footer() {
     return (
       <footer className="bg-[#023a87] text-white">
@@ -20,14 +22,21 @@ export default function Footer() {
               >
                 Join our mailing list →
               </a>
-              <p className="text-gray-300 max-w-md mb-6">
+              <div className="flex space-x-4 items-center justify-center mt-4">
                 <a 
                   href="mailto:cualignment@gmail.com" 
                   className="text-white hover:text-gray-300 transition-colors"
                 >
-                  cualignment@gmail.com
+                  <FaEnvelope className="inline-block h-8 w-8" />
                 </a>
-              </p>
+                <a 
+                  href="https://github.com/cualignment"
+                  target="_blank" rel="noopener noreferrer"
+                  className="text-white hover:text-gray-300 transition-colors"
+                >
+                  <FaGithub className="inline-block h-8 w-8" />
+                </a>
+              </div>
             </div>
           </div>
         </div>

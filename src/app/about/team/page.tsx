@@ -54,6 +54,11 @@ export default function TeamPage() {
 
   const advisors = [
     {
+      name: "Alexandra Bates",
+      title: "Advisor",
+      image: "/team/alexandra_bates.jpg",
+    },
+    {
       name: "Rohan Subramani",
       title: "Advisor",
       image: "/team/rohan_subramani.jpg",

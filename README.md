@@ -7,7 +7,9 @@ Install docker to your system:
 
 ```bash
 docker build -t cuea-website .
-docker compose up
+
+# You must build everytime you make a change
+docker compose up --build
 ```
 
 ### Manual
