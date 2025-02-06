@@ -6,7 +6,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 Install docker to your system: 
 
 ```bash
-docker build -t cuea-website .
+docker build -t caiac-website .
 
 # You must build everytime you make a change
 docker compose up --build
