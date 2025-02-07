@@ -1,5 +1,28 @@
 import { FaGithub } from 'react-icons/fa';
 
+const resources = [
+  {
+    title: "Emerging Technology Policy",
+    description: "A comprehensive resource for emerging tech policy careers. Guides and fellowships included.",
+    link: "https://emergingtechpolicy.org/"
+  },
+  {
+    title: "Horizon Public Service",
+    description: "Full time fellowship for individuals looking to work on national tech policy.",
+    link: "https://horizonpublicservice.org/"
+  },
+  {
+    title: "TechCongress",
+    description: "The Congressional Innovation Fellowship places technologists in Congressional offices to provide expertise on technology policy.",
+    link: "https://techcongress.io/apply"
+  },
+  {
+    title: "Aspen Tech Policy Hub",
+    description: "Policy bootcamp for tech experts.",
+    link: "https://aspenpolicyacademy.org/program/science-and-technology-policy-fellowship/"
+  }
+];
+
 export default function MissionPage() {
   return (
     <div className="flex flex-col min-h-screen">
@@ -19,28 +42,19 @@ export default function MissionPage() {
             </p>
             
             <div className="space-y-4">
-              <div>
-                <a href="https://emergingtechpolicy.org/" className="text-2xl text-blue-600 hover:underline">
-                  Emerging Technology Policy
-                </a>
-                <p className="text-gray-600">A comprehensive resource for emerging tech policy careers. Guides and fellowships included.</p>
-              </div>
-              <hr className="border-gray-300" />
-              <div>
-                <a href="https://horizonpublicservice.org/" className="text-2xl text-blue-600 hover:underline">
-                  Horizon Public Service
-                </a>
-                <p className="text-gray-600">Full time fellowship for individuals looking to work on national tech policy.</p>
-              </div>
-              <hr className="border-gray-300" />
+              {resources.map((resource, index) => (
+                <div key={index}>
+                  <a href={resource.link} className="text-2xl text-blue-600 hover:underline">
+                    {resource.title}
+                  </a>
+                  <p className="text-gray-600">{resource.description}</p>
+                  {index < resources.length - 1 && <hr className="border-gray-300" />}
+                </div>
+              ))}
             </div>
-
-
-
           </div>
         </div>
       </div>
-
     </div>
   );
 }
