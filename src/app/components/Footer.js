@@ -3,7 +3,7 @@ import { FaGithub, FaEnvelope } from 'react-icons/fa';
 
 export default function Footer() {
     return (
-      <footer className="bg-[#023a87] text-white">
+      <footer className="bg-[#023a87] text-white w-full overflow-visible">
         <div className="max-w-7xl mx-auto px-8 py-12">
           <div className="flex flex-col items-center text-center">
             <img 

@@ -13,7 +13,7 @@ export default function Navbar() {
   };
 
   return (
-    <header className="sticky top-0 z-50 bg-white">
+    <header className="sticky top-0 z-50 bg-white w-full overflow-visible">
       <div className="max-w-7xl mx-auto px-8">
         <div className="flex items-center justify-between h-24"> {/* Increased height */}
           {/* LOGO */}
