@@ -17,13 +17,17 @@ export const metadata = {
     "AI Policy",
     "AI Alignment", 
     "AI Research",
+    "Columbia",
     "Columbia University", 
     "Columbia University AI Club",
     "Columbia AI",
     "Columbia AI Club",
     "Club",
     "CAIAC",
-    "Research"
+    "Research",
+    "Artificial Intelligence",
+    "Tech Policy",
+    "Technology"
   ],
   author: "Columbia AI Alignment Club",
   openGraph: {
