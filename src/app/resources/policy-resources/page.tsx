@@ -20,6 +20,16 @@ const resources = [
     title: "Aspen Tech Policy Hub",
     description: "Policy bootcamp for tech experts.",
     link: "https://aspenpolicyacademy.org/program/science-and-technology-policy-fellowship/"
+  },
+  {
+    title: "Presidential Innovation Fellowship",
+    description: "",
+    link: "https://presidentialinnovationfellows.gov/"
+  },
+  {
+    title: "AAAS Science & Technology Policy Fellowships (STPF)",
+    description: "",
+    link: "http://www.stpf-aaas.org/"
   }
 ];
 
