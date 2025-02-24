@@ -11,6 +11,17 @@ export default function ResearchGroupsPage() {
         </p>
 
         <p className="text-lg">
+        Apply to a research group <a 
+            href="https://docs.google.com/forms/d/e/1FAIpQLSdbnara1CQ62Csel_YTDE4mAIEzUM6ZDVOkfaeFv5365mJryw/viewform?usp=dialog"
+            className="text-[#4A8A99] hover:underline font-bold"
+            target="_blank"
+            rel="noopener noreferrer"
+          >here
+          </a>
+          .
+        </p>
+
+        <p className="text-lg">
         Express interest <a 
             href="https://forms.gle/fa2dFsV5W8VSDvoT8"
             className="text-[#4A8A99] hover:underline font-bold"
@@ -20,6 +31,7 @@ export default function ResearchGroupsPage() {
           </a>
           .
         </p>
+
       </div>
       <br></br>
       <br></br>
