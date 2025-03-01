@@ -11,6 +11,11 @@ export default function TeamPage() {
       image: "/team/ryan-zhang.jpg",
     },
     {
+      name: "Paul Kroeger",
+      title: "Research Lead",
+      image: "/team/paul_kroeger.jpeg",
+    },
+    {
       name: "Thomas Gansa",
       title: "Communications Lead",
       image: "/team/thomasgansa.png",
@@ -53,6 +58,11 @@ export default function TeamPage() {
   ];
 
   const advisors = [
+    {
+      name: "Micah Goldblum",
+      title: "Faculty Advisor",
+      image: "/team/micah_goldblum.jpg",
+    },
     {
       name: "Alexandra Bates",
       title: "Advisor",
