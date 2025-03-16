@@ -1,4 +1,27 @@
-export default function Home() {
+import fs from 'fs';
+import path from 'path';
+import { remark } from 'remark';
+import html from 'remark-html';
+
+export default async function Home() {
+  // Function to read and parse markdown files
+  const getNewsContent = async () => {
+    const newsDir = path.join(process.cwd(), 'src/app/news');
+    const files = fs.readdirSync(newsDir).reverse().slice(0, 3); // Take the last 3 files
+    const newsContent = await Promise.all(
+      files.map(async (file) => {
+        const filePath = path.join(newsDir, file);
+        const fileContents = fs.readFileSync(filePath, 'utf8');
+        const processedContent = await remark().use(html).process(fileContents);
+        const date = file.replace('.md', '').replace(/-/g, '/');
+        return { date, content: processedContent.toString() };
+      })
+    );
+    return newsContent;
+  };
+
+  const newsContent = await getNewsContent();
+
   return (
     <div className="min-h-screen bg-white">
       {/* Hero Section */}
@@ -65,6 +88,19 @@ export default function Home() {
               <img src="/orgs/chai_logo.png" alt="CHAI" className="h-16" />
               <img src="/orgs/spar_logo.png" alt="Supervised Program for Alignment Research" className="h-16" />
               {/* Add more logos as needed */}
+            </div>
+          </div>
+
+          {/* News Section */}
+          <div className="mt-24">
+            <h3 className="text-2xl font-semibold text-[#023a87]">Latest News</h3>
+            <div className="mt-8 space-y-4">
+              {newsContent.map((news, index) => (
+                <div key={index} className="prose prose-lg text-gray-600 flex items-center">
+                  <p className="text-sm text-gray-500 mr-4">{news.date}</p>
+                  <div dangerouslySetInnerHTML={{ __html: news.content }} />
+                </div>
+              ))}
             </div>
           </div>
         </div>

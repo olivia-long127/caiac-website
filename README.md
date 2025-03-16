@@ -2,7 +2,7 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ## Getting Started
 
-### Docker (recommended)
+### Docker (recommended for quick contributions)
 Install docker to your system: 
 
 ```bash
@@ -12,7 +12,7 @@ docker build -t caiac-website .
 docker compose up --build
 ```
 
-### Manual
+### Active Maintainers 
 First, run the development server:
 
 ```bash
