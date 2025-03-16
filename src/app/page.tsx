@@ -1,26 +1,24 @@
 import fs from 'fs';
 import path from 'path';
+import matter from 'gray-matter';
 import { remark } from 'remark';
 import html from 'remark-html';
 
 export default async function Home() {
   // Function to read and parse markdown files
-  const getNewsContent = async () => {
-    const newsDir = path.join(process.cwd(), 'src/app/news');
+  const getNewsHeaders = async () => {
+    const newsDir = path.join(process.cwd(), 'src/app/news/entries');
     const files = fs.readdirSync(newsDir).reverse().slice(0, 3); // Take the last 3 files
-    const newsContent = await Promise.all(
-      files.map(async (file) => {
-        const filePath = path.join(newsDir, file);
-        const fileContents = fs.readFileSync(filePath, 'utf8');
-        const processedContent = await remark().use(html).process(fileContents);
-        const date = file.replace('.md', '').replace(/-/g, '/');
-        return { date, content: processedContent.toString() };
-      })
-    );
-    return newsContent;
+    const newsHeaders = files.map((file) => {
+      const filePath = path.join(newsDir, file);
+      const fileContents = fs.readFileSync(filePath, 'utf8');
+      const { data } = matter(fileContents);
+      return { title: data.title, date: data.date };
+    });
+    return newsHeaders;
   };
 
-  const newsContent = await getNewsContent();
+  const newsHeaders = await getNewsHeaders();
 
   return (
     <div className="min-h-screen bg-white">
@@ -93,12 +91,14 @@ export default async function Home() {
 
           {/* News Section */}
           <div className="mt-24">
-            <h3 className="text-2xl font-semibold text-[#023a87]">Latest News</h3>
+            <a href="/news" className="text-2xl font-semibold text-[#023a87] hover:underline">
+              Latest News
+            </a>
             <div className="mt-8 space-y-4">
-              {newsContent.map((news, index) => (
+              {newsHeaders.map((news, index) => (
                 <div key={index} className="prose prose-lg text-gray-600 flex items-center">
                   <p className="text-sm text-gray-500 mr-4">{news.date}</p>
-                  <div dangerouslySetInnerHTML={{ __html: news.content }} />
+                  <p>{news.title}</p>
                 </div>
               ))}
             </div>

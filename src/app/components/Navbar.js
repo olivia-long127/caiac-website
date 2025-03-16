@@ -55,14 +55,6 @@ export default function Navbar() {
                       Team
                     </Link>
                   </li>
-                  {/*
-                  <li>
-                    <Link href="/about/mission" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
-                      ${isActive("/about/mission") ? "text-[#023a87]" : ""}`}>
-                      Mission
-                    </Link>
-                  </li>
-                  * */}
                 </ul>
               </li>
 
@@ -133,8 +125,13 @@ export default function Navbar() {
                 </ul>
               </li>
 
-
-
+              {/* NEWS */}
+              <li>
+                <Link href="/news" className={`py-3 text-lg text-gray-600 hover:text-[#023a87] transition-colors
+                  ${isActive("/news") ? "text-[#023a87]" : ""}`}>
+                  News
+                </Link>
+              </li>
             </ul>
           </nav>
         </div>

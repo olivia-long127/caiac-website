@@ -19,7 +19,8 @@ const MobileNavbar = () => {
       { label: 'About', submenu: 'about' },
       { label: 'Research', href: '/research' },
       { label: 'Get Involved', submenu: 'getInvolved' },
-      { label: 'Resources', submenu: 'resources' }
+      { label: 'Resources', submenu: 'resources' },
+      { label: 'News', href: '/news' }
     ],
     about: [
       { label: 'Home', href: '/' },

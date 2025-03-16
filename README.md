@@ -31,6 +31,19 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
+
+
+## Adding to news (adding to blog coming soon)
+We use markdown rendering to render your content.
+- Create a new entry under src/app/news/entry
+- add any photos under public/news/
+- the main page displays the last 3 entries
+
+
+
+
+
+
 ## Learn More
 
 To learn more about Next.js, take a look at the following resources:
