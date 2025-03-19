@@ -2,34 +2,19 @@ import { FaGithub } from 'react-icons/fa';
 
 const resources = [
   {
-    title: "Emerging Technology Policy*",
-    description: "A comprehensive resource for emerging tech policy careers. Guides and fellowships included.",
-    link: "https://emergingtechpolicy.org/"
+    title: "ARENA*",
+    description: "One of the best resources out there for upskilling. Check out chapter one here: https://arena-chapter1-transformer-interp.streamlit.app/",
+    link: "https://www.arena.education/"
   },
   {
-    title: "Horizon Public Service",
-    description: "Full time fellowship for individuals looking to work on national tech policy.",
-    link: "https://horizonpublicservice.org/"
+    title: "MATS",
+    description: "Do alignment research with industry experts. Mentors include Neel Nanda, Jan Leike, David Krueger, and more.",
+    link: "https://www.matsprogram.org/"
   },
   {
-    title: "TechCongress",
-    description: "The Congressional Innovation Fellowship places technologists in Congressional offices to provide expertise on technology policy.",
-    link: "https://techcongress.io/apply"
-  },
-  {
-    title: "Aspen Tech Policy Hub",
-    description: "Policy bootcamp for tech experts.",
-    link: "https://aspenpolicyacademy.org/program/science-and-technology-policy-fellowship/"
-  },
-  {
-    title: "Presidential Innovation Fellowship",
-    description: "",
-    link: "https://presidentialinnovationfellows.gov/"
-  },
-  {
-    title: "AAAS Science & Technology Policy Fellowships (STPF)",
-    description: "",
-    link: "http://www.stpf-aaas.org/"
+    title: "SPAR",
+    description: "A virtual, part-time, volunteer research program for students interested in AI Safety.",
+    link: "https://sparai.org/"
   }
 ];
 
@@ -38,11 +23,11 @@ export default function MissionPage() {
     <div className="flex flex-col min-h-screen">
       <div className="flex-grow">
         <div className="max-w-4xl mx-auto px-4 py-12">
-          <h1 className="text-4xl font-light tracking-wide mb-8">Policy Resources</h1>
+          <h1 className="text-4xl font-light tracking-wide mb-8">Technical Resources</h1>
           
           <div className="space-y-8">
             <p className="text-gray-800 text-lg leading-relaxed">
-              Here are resources to help you kick start your AI Policy Career! (* means highly recommended)
+              Here are resources to help you kick start your AI Technical Research Career! (* means highly recommended)
             </p>
             <p className="text-gray-600 text-sm leading-relaxed flex items-center">
               Please contribute to our resources on  

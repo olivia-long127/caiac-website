@@ -33,8 +33,9 @@ const MobileNavbar = () => {
       { label: 'Research Groups', href: '/get_involved/research-groups' }
     ],
     resources: [
-      { label: 'Blog', href: '/resources/blog' },
+      { label: 'Technical Resources', href: '/resources/technical-resources' },
       { label: 'Policy Resources', href: '/resources/policy-resources' },
+      { label: 'Blog', href: '/resources/blog' },
     ]
   };
 

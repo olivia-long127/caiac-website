@@ -109,19 +109,28 @@ export default function Navbar() {
                 <ul className="absolute left-0 mt-3 w-64 bg-white rounded-lg shadow-lg py-2 opacity-0 invisible 
                               group-hover:opacity-100 group-hover:visible transition-all duration-200 -translate-y-2 
                               group-hover:translate-y-0">
+                  
                   <li>
-                    <Link href="/resources/blog" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
-                      ${isActive("/resources/blog") ? "text-[#023a87]" : ""}`}>
-                      Blog
+                    <Link href="/resources/technical-resources" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
+                      ${isActive("/resources/technical-resources") ? "text-[#023a87]" : ""}`}>
+                      Technical Resources
                     </Link>
                   </li>
-                  
+
                   <li>
                     <Link href="/resources/policy-resources" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
                       ${isActive("/resources/policy-resources") ? "text-[#023a87]" : ""}`}>
                       Policy Resources
                     </Link>
                   </li>
+
+                  <li>
+                    <Link href="/resources/blog" className={`block px-6 py-3 text-base text-gray-700 hover:bg-gray-50 
+                      ${isActive("/resources/blog") ? "text-[#023a87]" : ""}`}>
+                      Blog
+                    </Link>
+                  </li>
+
                 </ul>
               </li>
 
