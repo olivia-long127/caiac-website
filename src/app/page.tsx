@@ -85,6 +85,8 @@ export default async function Home() {
               <img src="/orgs/constellation_logo.svg" alt="Constellation" className="h-16" />
               <img src="/orgs/chai_logo.png" alt="CHAI" className="h-16" />
               <img src="/orgs/spar_logo.png" alt="Supervised Program for Alignment Research" className="h-16" />
+              <img src="/orgs/mats_spelled_out_red_w_torch+(1).png" alt="ML Alignment and Theory Scholars" className="h-16" />
+              <img src="/orgs/xlab_shield.png" alt="XLab" className="h-16" />
               {/* Add more logos as needed */}
             </div>
           </div>
