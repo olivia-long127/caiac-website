@@ -83,7 +83,9 @@ export default async function Home() {
             <div className="mt-8 flex flex-wrap justify-center gap-8">
               <img src="/orgs/redwood_logo.svg" alt="Redwood Research" className="h-16" />
               <img src="/orgs/constellation_logo.svg" alt="Constellation" className="h-16" />
+              <img src="/orgs/mats_logo.png" alt="ML Alignment and Theory Scholars" className="h-16" />
               <img src="/orgs/chai_logo.png" alt="CHAI" className="h-16" />
+              <img src="/orgs/xlab_logo.png" alt="XLab" className="h-16" />
               <img src="/orgs/spar_logo.png" alt="Supervised Program for Alignment Research" className="h-16" />
               {/* Add more logos as needed */}
             </div>
