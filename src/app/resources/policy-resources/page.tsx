@@ -7,14 +7,39 @@ const resources = [
     link: "https://emergingtechpolicy.org/"
   },
   {
-    title: "Horizon Public Service",
-    description: "Full time fellowship for individuals looking to work on national tech policy.",
+    title: "Horizon Fellowship",
+    description: "A public service program that provides emerging leaders with hands‑on experience addressing AI policy and governance challenges within government and related institutions.",
     link: "https://horizonpublicservice.org/"
   },
   {
-    title: "TechCongress",
-    description: "The Congressional Innovation Fellowship places technologists in Congressional offices to provide expertise on technology policy.",
-    link: "https://techcongress.io/apply"
+    title: "Tech Congress AI Safety Fellowship",
+    description: "Unites technology professionals and policymakers to collaborate on research and initiatives that enhance the safety and ethical governance of AI systems.",
+    link: "https://techcongress.io/"
+  },
+  {
+    title: "Future Impact Group",
+    description: "A part‑time, remote‑first fellowship that matches research associates with high‑profile project leads to work on impactful projects at the intersection of AI policy and philosophy for safe AI.",
+    link: "https://futureimpact.group/"
+  },
+  {
+    title: "RAND Technology and Security Policy (TASP) Fellowship",
+    description: "Convenes high‑caliber researchers to conduct policy analysis on technology, security, and emerging global risks. We talked to Michael Aird and he said to focus on programs like MATS before applying.",
+    link: "https://www.rand.org/global-and-emerging-risks/centers/technology-and-security-policy/fellows.html"
+  },
+  {
+    title: "IAPS Fellowship",
+    description: "Offers an interdisciplinary platform for scholars to research the societal and policy implications of AI while building networks with leading experts in AI governance and safety.",
+    link: "https://www.iaps.ai/fellowship"
+  },
+  {
+    title: "Vista Policy Institute",
+    description: "A fellowship and training initiative designed to equip emerging talent with the skills to drive change in AI policy and governance through applied research and advocacy.",
+    link: "https://vistainstituteai.org/program"
+  },
+  {
+    title: "GovAI",
+    description: "An organization focused on shaping the governance of advanced AI by offering fellowships, scholar positions, and talent development roles that empower individuals to influence policy and regulation.",
+    link: "https://www.governance.ai/opportunities"
   },
   {
     title: "Aspen Tech Policy Hub",
@@ -23,12 +48,12 @@ const resources = [
   },
   {
     title: "Presidential Innovation Fellowship",
-    description: "",
+    description: "A fellowship the brings technical individuals to government.",
     link: "https://presidentialinnovationfellows.gov/"
   },
   {
     title: "AAAS Science & Technology Policy Fellowships (STPF)",
-    description: "",
+    description: "(Copied) The fellowship program offers hands-on opportunities to apply your scientific knowledge and technical skills to important societal challenges.",
     link: "http://www.stpf-aaas.org/"
   }
 ];
