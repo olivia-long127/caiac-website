@@ -85,6 +85,33 @@ export default function TeamPage() {
     }
   ];
 
+  const partners = [
+    {
+      name: "Harvard AI Student Safety Team",
+      title: "Boston, MA",
+      image: "/partners/aisst.png",
+      link: "https://haist.ai"
+    },
+    {
+      name: "MIT AI Alignment",
+      title: "Boston, MA",
+      image: "/partners/maia.png",
+      link: "https://aialignment.mit.edu"
+    },
+    {
+      name: "Cambridge Boston Alignment Initiative",
+      title: "Boston, MA",
+      image: "/partners/cbai.png",
+      link: "https://www.cbai.ai"
+    },
+    {
+      name: "Georgia Tech AI Safety Initiative",
+      title: "Atlanta, GA",
+      image: "/partners/aisi.png",
+      link: "https://www.aisi.dev"
+    }
+  ];
+
   return (
     <div className="min-h-screen bg-white">
       <div className="max-w-7xl mx-auto px-8 py-16">
@@ -144,6 +171,36 @@ export default function TeamPage() {
             ))}
           </div>
         </div>
+
+        {/* Partners Grid */}
+        
+        <div className="mt-16">
+          <h2 className="text-3xl text-[#023a87] font-light mb-8 text-center">Partner Organizations</h2>
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
+            {partners.map((partner) => (
+              <div key={partner.name} className="flex flex-col items-center text-center group">
+                <div className="mb-6 shadow-md">
+                  <a href={partner.link} title={partner.name}>
+                    <img
+                      src={partner.image}
+                      alt={partner.name}
+                      className="w-full h-full object-cover"
+                    />
+                  </a>
+                </div>
+                
+                <h3 className="text-2xl text-[#023a87] font-light mb-2">
+                  {partner.name}
+                </h3>
+                
+                <p className="text-gray-600 text-lg font-light italic">
+                  {partner.title}
+                </p>
+              </div>
+            ))}
+          </div>
+        </div>
+        
       </div>
     </div>
   );
