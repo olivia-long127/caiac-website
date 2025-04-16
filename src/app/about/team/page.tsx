@@ -103,12 +103,6 @@ export default function TeamPage() {
       title: "Boston, MA",
       image: "/partners/cbai.png",
       link: "https://www.cbai.ai"
-    },
-    {
-      name: "Georgia Tech AI Safety Initiative",
-      title: "Atlanta, GA",
-      image: "/partners/aisi.png",
-      link: "https://www.aisi.dev"
     }
   ];
 
