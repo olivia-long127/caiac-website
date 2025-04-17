@@ -41,6 +41,15 @@ export default async function Home() {
                 Join our mailing list <span aria-hidden="true">→</span>
               </a>
             </div>
+            <div className="mt-10 flex items-center justify-center gap-x-6">
+              <a
+                href="https://join.slack.com/t/caiac-workspace/shared_invite/zt-2z17aw892-P4ziYvV1hEerwEmhj5tKtA"
+                target="_blank" rel="noopener noreferrer"
+                className="text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
+              >
+                Join our Slack <span aria-hidden="true">→</span>
+              </a>
+            </div>
           </div>
         </div>
       </div>
