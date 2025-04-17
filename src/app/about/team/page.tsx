@@ -119,6 +119,48 @@ export default function TeamPage() {
       title: "Boston, MA",
       image: "/partners/cbai.png",
       link: "https://www.cbai.ai"
+    },
+    {
+      name: "Cornell AI Alignment",
+      title: "Ithaca, NY",
+      image: "/partners/cornell_aia.png",
+      link: "https://www.cornell-aia.org"
+    },
+    {
+      name: "Brown AI Safety Team",
+      title: "Providence, RI",
+      image: "/partners/baist.png",
+      link: "https://www.baist.ai"
+    },
+    {
+      name: "Boston University AI Safety Association",
+      title: "Boston, MA",
+      image: "/partners/buaisa.png",
+      link: "https://buaisa.org"
+    },
+    {
+      name: "University of British Columbia AI Safety",
+      title: "Vancouver, BC",
+      image: "/partners/ubcais.png",
+      link: "https://www.ubcaisafety.org"
+    },
+    {
+      name: "Stanford AI Alignment",
+      title: "Stanford, CA",
+      image: "/partners/saia.png",
+      link: "https://stanfordaialignment.org"
+    },
+    {
+      name: "Georgia Tech AI Safety Initiative",
+      title: "Atlanta, GA",
+      image: "/partners/gtaisi.png",
+      link: "https://www.aisi.dev"
+    },
+    {
+      name: "UChicago AI Safety",
+      title: "Chicago, IL",
+      image: "/partners/ucais.png",
+      link: "https://uchicagoaisafety.com"
     }
   ];
 
