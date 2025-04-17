@@ -22,7 +22,7 @@ export default function TeamPage() {
       name: "Olivia Long",
       title: "Outreach Lead",
       image: "/team/olivia_long.jpeg",
-      link: "www.linkedin.com/in/olivia-l-572351246"
+      link: "https://www.linkedin.com/in/olivia-l-572351246"
     },
     {
       name: "Thomas Gansa",
