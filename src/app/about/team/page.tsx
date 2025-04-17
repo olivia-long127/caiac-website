@@ -193,12 +193,12 @@ export default function TeamPage() {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-x-12 gap-y-16">
             {partners.map((partner) => (
               <div key={partner.name} className="flex flex-col items-center text-center group">
-                <div className="mb-6 shadow-md">
+                <div className="mb-6 flex items-center justify-center h-40 w-full">
                   <a href={partner.link} title={partner.name}>
                     <img
                       src={partner.image}
                       alt={partner.name}
-                      className="w-full h-full object-cover"
+                      className="max-h-40 max-w-full object-contain"
                     />
                   </a>
                 </div>
