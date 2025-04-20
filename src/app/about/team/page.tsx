@@ -180,7 +180,7 @@ export default function TeamPage() {
           {teamMembers.map((member) => (
             <div key={member.name} className="flex flex-col items-center text-center group">
               <div className="mb-6 rounded-full overflow-hidden w-56 h-56 shadow-md">
-                <a href={member.link} title={member.name}>
+                <a href={member.link} title={member.name} target="_blank">
                 <img
                   src={member.image}
                   alt={member.name}
@@ -207,7 +207,7 @@ export default function TeamPage() {
             {advisors.map((advisor) => (
               <div key={advisor.name} className="flex flex-col items-center text-center group">
                 <div className="mb-6 rounded-full overflow-hidden w-56 h-56 shadow-md">
-                  <a href={advisor.link} title={advisor.name}>
+                  <a href={advisor.link} title={advisor.name} target="_blank">
                   <img
                     src={advisor.image}
                     alt={advisor.name}
@@ -236,7 +236,7 @@ export default function TeamPage() {
             {partners.map((partner) => (
               <div key={partner.name} className="flex flex-col items-center text-center group">
                 <div className="mb-6 flex items-center justify-center h-40 w-full">
-                  <a href={partner.link} title={partner.name}>
+                  <a href={partner.link} title={partner.name} target="_blank">
                     <img
                       src={partner.image}
                       alt={partner.name}
