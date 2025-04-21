@@ -14,13 +14,13 @@ export default function TeamPage() {
     },
     {
       name: "Paul Kroeger",
-      title: "Research Lead",
+      title: "Director of Research",
       image: "/team/paul_kroeger.jpeg",
       link: "https://www.linkedin.com/in/paul-kroeger/"
     },
     {
       name: "Olivia Long",
-      title: "Outreach Lead",
+      title: "Director of Outreach",
       image: "/team/olivia_long.jpeg",
       link: "https://www.linkedin.com/in/olivia-l-572351246"
     },
