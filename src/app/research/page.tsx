@@ -1,6 +1,30 @@
 const researchEntries = [
   
   {
+    title: "The Partially Observable Off-Switch Game",
+    authors: [
+      { name: "Andrew Garber" },
+      { name: "Rohan Subramani" },
+      { name: "Linus Luu" },
+      { name: "Mark Bedaywi" },
+      { name: "Stuart Russell", isPI: true },
+      { name: "Scott Emmons", isPI: true }
+    ],
+    date: "April 11, 2025",
+    link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O-qEYjUAAAAJ&citation_for_view=O-qEYjUAAAAJ:IjCSPb-OGe4C"
+  },
+  {
+    title: "SCIURus: Shared Circuits for Interpretable Uncertainty Representations in Language Models",
+    authors: [
+      { name: "Carter Teplica"},
+      { name: "Yixin Liu" },
+      { name: "Arman Cohan", isPI: true },
+      { name: "Tim GJ Rudner", isPI: true }
+    ],
+    date: "December 15, 2024",
+    link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=g-weYlAAAAAJ&citation_for_view=g-weYlAAAAAJ:9yKSN-GCB0IC"
+  },
+  {
     title: "Adaptive Contextual Perception: How to Generalize to New Backgrounds and Ambiguous Objects",
     authors: [
       { name: "Zhuofan Ying", isPI: true },
@@ -10,7 +34,6 @@ const researchEntries = [
     date: "December 2, 2024",
     link: "https://arxiv.org/abs/2306.05963v2"
   },
-  
   {
     title: "Generalization Analogies (Genies): A Testbed for Generalizing AI Oversight to Hard-to-Measure Domains",
     authors: [

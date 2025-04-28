@@ -103,7 +103,7 @@ export default function TeamPage() {
 
   const partners = [
     {
-      name: "Harvard AI Student Safety Team",
+      name: "Harvard AI Safety Student Team",
       title: "Boston, MA",
       image: "/partners/aisst.png",
       link: "https://haist.ai"
