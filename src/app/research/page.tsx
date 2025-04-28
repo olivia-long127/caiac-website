@@ -4,11 +4,11 @@ const researchEntries = [
     title: "The Partially Observable Off-Switch Game",
     authors: [
       { name: "Andrew Garber" },
-      { name: "Rohan Subramani" },
+      { name: "Rohan Subramani", isPI: true },
       { name: "Linus Luu" },
       { name: "Mark Bedaywi" },
-      { name: "Stuart Russell", isPI: true },
-      { name: "Scott Emmons", isPI: true }
+      { name: "Stuart Russell" },
+      { name: "Scott Emmons" }
     ],
     date: "April 11, 2025",
     link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=O-qEYjUAAAAJ&citation_for_view=O-qEYjUAAAAJ:IjCSPb-OGe4C"
@@ -16,10 +16,10 @@ const researchEntries = [
   {
     title: "SCIURus: Shared Circuits for Interpretable Uncertainty Representations in Language Models",
     authors: [
-      { name: "Carter Teplica"},
+      { name: "Carter Teplica", isPI: true },
       { name: "Yixin Liu" },
-      { name: "Arman Cohan", isPI: true },
-      { name: "Tim GJ Rudner", isPI: true }
+      { name: "Arman Cohan" },
+      { name: "Tim GJ Rudner" }
     ],
     date: "December 15, 2024",
     link: "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=g-weYlAAAAAJ&citation_for_view=g-weYlAAAAAJ:9yKSN-GCB0IC"
