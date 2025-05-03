@@ -73,18 +73,6 @@ export default async function Home() {
             <p><strong>Applications for both our fellowships are now closed! Please look out for us next semester!</strong></p>
           </div>
 
-{/*           {/* CTA Section */}
-          <div className="mt-24">
-            <a
-              href="https://forms.gle/fa2dFsV5W8VSDvoT8"
-              target="_blank" rel="noopener noreferrer"
-              className="group inline-flex items-center gap-x-2 text-base font-semibold text-[#023a87] hover:text-[#4A8A99] transition-colors"
-            >
-              Join our mailing list
-              <span aria-hidden="true" className="block transition-transform group-hover:translate-x-1">→</span>
-            </a>
-          </div> */}
-
           {/* Logos Section */}
           <div className="mt-24 text-center">
             <h3 className="text-2xl font-semibold text-[#023a87]">Our past members have worked with:</h3>
