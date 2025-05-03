@@ -71,10 +71,9 @@ export default async function Home() {
               We also run a semester-long introductory reading group on AI safety, including both a <a href="/get_involved/technical-fellowship" className="text-[#4A8A99] hover:underline">technical machine learning track</a>, and a <a href="/get_involved/policy-fellowship" className="text-[#4A8A99] hover:underline">policy track</a>.
             </p>
             <p><strong>Applications for both our fellowships are now closed! Please look out for us next semester!</strong></p>
-            <p><strong>Application Deadline: January 31.</strong></p>
           </div>
 
-          {/* CTA Section */}
+{/*           {/* CTA Section */}
           <div className="mt-24">
             <a
               href="https://forms.gle/fa2dFsV5W8VSDvoT8"
@@ -84,7 +83,7 @@ export default async function Home() {
               Join our mailing list
               <span aria-hidden="true" className="block transition-transform group-hover:translate-x-1">→</span>
             </a>
-          </div>
+          </div> */}
 
           {/* Logos Section */}
           <div className="mt-24 text-center">
