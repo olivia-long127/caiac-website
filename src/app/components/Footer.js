@@ -16,7 +16,7 @@ export default function Footer() {
             </p>
             <div className="space-y-2">
               <a 
-                href="https://forms.gle/fa2dFsV5W8VSDvoT8"
+                href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=CUALIGNMENT&A=1"
                 target="_blank" rel="noopener noreferrer"
                 className="text-white hover:text-gray-300 transition-colors"
               >
