@@ -34,7 +34,7 @@ export default async function Home() {
             </h2>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a
-                href="https://forms.gle/fa2dFsV5W8VSDvoT8"
+                href="https://listserv.cuit.columbia.edu/scripts/wa.exe?SUBED1=CUALIGNMENT&A=1"
                 target="_blank" rel="noopener noreferrer"
                 className="text-sm font-semibold text-[#023a87] border-[#023a87] border px-8 py-3 hover:bg-[#023a87] hover:text-white transition-all"
               >
